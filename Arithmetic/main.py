@@ -300,7 +300,7 @@ units = number % 10
 tens = number // 10 % 10
 hundreds = number // 100
 
-print(number, sep="/n")
+print(number)
 print(hundreds, units, tens, sep="")
 print(tens, hundreds, units, sep="")
 print(tens, units, hundreds, sep="")

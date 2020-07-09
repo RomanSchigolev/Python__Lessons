@@ -314,8 +314,8 @@ row1, col1, row2, col2 = [int(input()) for _ in range(4)]
 
 if 0 < row1 <= 8 and 0 < col1 <= 8:
     if 0 < row2 <= 8 and 0 < col2 <= 8:
-        if (row1 - row2 == 1) or (row2 - row1 == 1) or row1 == row2:
-            if (col1 - col2 == 1) or (col2 - col1 == 1) or col1 == col2:
+        if (row1 - row2 == 1) or (row2 - row1 == 1) or row1 != row2:
+            if (col1 - col2 == 1) or (col2 - col1 == 1) or col1 != col2:
                 print("YES")
             else:
                 print("NO")

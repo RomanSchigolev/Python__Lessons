@@ -12,11 +12,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Conditional_Operator/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="689">
-              <caret line="618" lean-forward="true" selection-start-line="618" selection-end-line="618" />
+            <state relative-caret-position="-5341">
+              <caret line="326" column="15" lean-forward="true" selection-start-line="326" selection-start-column="15" selection-end-line="326" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Conditional_Operator/final_work.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="563">
+              <caret line="194" column="73" selection-start-line="194" selection-start-column="73" selection-end-line="194" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -47,6 +56,7 @@
         <option value="$PROJECT_DIR$/Conditional-operator/main.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Conditional_Operator/mian.py" />
+        <option value="$PROJECT_DIR$/Conditional_Operator/final_work.py" />
         <option value="$PROJECT_DIR$/Conditional_Operator/main.py" />
       </list>
     </option>
@@ -183,8 +193,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Conditional_Operator/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="618" lean-forward="true" selection-start-line="618" selection-end-line="618" />
+        <state relative-caret-position="-5341">
+          <caret line="326" column="15" lean-forward="true" selection-start-line="326" selection-start-column="15" selection-end-line="326" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conditional_Operator/final_work.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="194" column="73" selection-start-line="194" selection-start-column="73" selection-end-line="194" selection-end-column="73" />
         </state>
       </provider>
     </entry>

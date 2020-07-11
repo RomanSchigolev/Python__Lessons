@@ -282,12 +282,9 @@ else:
 
 row1, col1, row2, col2 = [int(input()) for _ in range(4)]
 
-if 0 < row1 <= 8 and 0 < col1 <= 8:
-    if 0 < row2 <= 8 and 0 < col2 <= 8:
-        if row1 == row2 or col1 == col2:
-            print("YES")
-        else:
-            print("NO")
+if 0 < row1 <= 8 and 0 < col1 <= 8 or 0 < row2 <= 8 and 0 < col2 <= 8:
+    if row1 == row2 or col1 == col2:
+        print("YES")
     else:
         print("NO")
 else:
@@ -308,13 +305,10 @@ else:
 
 row1, col1, row2, col2 = [int(input()) for _ in range(4)]
 
-if 0 < row1 <= 8 and 0 < col1 <= 8:
-    if 0 < row2 <= 8 and 0 < col2 <= 8:
-        if (row1 - row2 == 1) or (row2 - row1 == 1) or row1 != row2:
-            if (col1 - col2 == 1) or (col2 - col1 == 1) or col1 != col2:
-                print("YES")
-            else:
-                print("NO")
+if 0 < row1 <= 8 and 0 < col1 <= 8 or 0 < row2 <= 8 and 0 < col2 <= 8:
+    if (row1 - row2 == 1) or (row2 - row1 == 1) or row1 != row2:
+        if (col1 - col2 == 1) or (col2 - col1 == 1) or col1 != col2:
+            print("YES")
         else:
             print("NO")
     else:
@@ -324,12 +318,9 @@ else:
 
 # or
 
-if 0 < row1 <= 8 and 0 < col1 <= 8:
-    if 0 < row2 <= 8 and 0 < col2 <= 8:
-        if (-1 <= row1 - row2 <= 1) and (-1 <= col1 - col2 <= 1):
-            print("YES")
-        else:
-            print("NO")
+if 0 < row1 <= 8 and 0 < col1 <= 8 or 0 < row2 <= 8 and 0 < col2 <= 8:
+    if (-1 <= row1 - row2 <= 1) and (-1 <= col1 - col2 <= 1):
+        print("YES")
     else:
         print("NO")
 else:
@@ -616,4 +607,56 @@ else:
     else:
         print('черный')
 
+# 27. На числовой прямой даны два отрезка: [a1; b1] и [a2; b2]. Напишите программу, которая находит их пересечение.
 
+# Пересечением двух отрезков может быть:
+# отрезок;
+# точка;
+# пустое множество.
+
+# Формат входных данных
+# На вход программе подаются 4 целых числа a1, b1, a2, b2, каждое на отдельной строке.
+# Гарантируется, что a1 < b1 и a2 < b2
+
+# Формат выходных данных
+# Программа должна вывести на экран границы отрезка, являющегося пересечением, либо общую точку, либо текст «пустое множество».
+
+a1, b1, a2, b2 = [int(input()) for _ in range(4)]
+
+if a1 == a2 and b1 == b2:
+    print(a1, b1)
+elif b1 == a2:
+    print(b1)
+elif a1 == a2 and b1 > b2:
+    print(a1, b2)
+elif a1 < a2 and b1 > b2:
+    print(a2, b2)
+elif a1 < a2 and b1 == b2:
+    print(a2, b2)
+elif a1 < a2 < b1 < b2:
+    print(a2, b1)
+elif a2 < a1 < b2 < b1:
+    print(a1, b2)
+elif b2 == a1:
+    print(b2)
+elif a2 == a1 and b2 > b1:
+    print(a1, b1)
+elif a2 < a1 and b2 == b1:
+    print(a1, b1)
+elif a2 < a1 < b2 < b1:
+    print(a1, b2)
+elif a2 < a1 and b2 > b1:
+    print(a1, b1)
+elif a1 < a2 < b1 < b2:
+    print(a2, b1)
+elif a1 < b1 < a2 < b2 or a2 < b2 < a1 < b1:
+    print("пустое множество")
+
+# or
+a1, b1, a2, b2 = int(input()), int(input()), int(input()), int(input())
+if min(b1, b2) < max(a1, a2):
+    print('пустое множество')
+elif min(b1, b2) == max(a1, a2):
+    print(min(b1, b2))
+else:
+    print(max(a1, a2), min(b1, b2))

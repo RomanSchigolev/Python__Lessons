@@ -142,6 +142,7 @@ last_digit = num % 10
 while num != 0:
     if num % 10 != last_digit:
         is_same_digits = False
+        break
     num = num // 10
 print("YES" if is_same_digits else "NO")
 
@@ -169,9 +170,10 @@ print("YES" if counter == 0 else "NO")
 num = int(input())
 is_ordered = True
 while num > 9:
-    second_digit_right = num // 10 % 10
+    second_digit_on_right = num // 10 % 10
     first_digit_on_right = num % 10
-    if first_digit_on_right > second_digit_right:
+    if first_digit_on_right > second_digit_on_right:
         is_ordered = False
+        break
     num = num // 10
 print("YES" if is_ordered else "NO")

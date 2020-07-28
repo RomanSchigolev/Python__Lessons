@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2d13fb55-f66c-4a04-89c0-bcd77dc74d7d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Loops/nested_loop.py" beforeDir="false" afterPath="$PROJECT_DIR$/Loops/nested_loop.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,10 +13,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Loops/nested_loop.py">
+        <entry file="file://$PROJECT_DIR$/Loops/final.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="270" column="20" lean-forward="true" selection-start-line="270" selection-start-column="20" selection-end-line="270" selection-end-column="20" />
+            <state relative-caret-position="635">
+              <caret line="235" column="31" lean-forward="true" selection-start-line="235" selection-start-column="31" selection-end-line="235" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -60,6 +59,7 @@
         <option value="$PROJECT_DIR$/Loops/break_continue.py" />
         <option value="$PROJECT_DIR$/Loops/error_detection_and_code_review.py" />
         <option value="$PROJECT_DIR$/Loops/nested_loop.py" />
+        <option value="$PROJECT_DIR$/Loops/final.py" />
       </list>
     </option>
   </component>
@@ -280,8 +280,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Loops/nested_loop.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="270" column="20" lean-forward="true" selection-start-line="270" selection-start-column="20" selection-end-line="270" selection-end-column="20" />
+        <state relative-caret-position="689">
+          <caret line="269" column="33" selection-start-line="269" selection-start-column="33" selection-end-line="269" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Loops/final.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="235" column="31" lean-forward="true" selection-start-line="235" selection-start-column="31" selection-end-line="235" selection-end-column="31" />
         </state>
       </provider>
     </entry>

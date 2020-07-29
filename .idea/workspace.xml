@@ -13,10 +13,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Loops/final.py">
+        <entry file="file://$PROJECT_DIR$/String/indexation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="635">
-              <caret line="235" column="31" lean-forward="true" selection-start-line="235" selection-start-column="31" selection-end-line="235" selection-end-column="31" />
+            <state relative-caret-position="347">
+              <caret line="162" column="31" lean-forward="true" selection-start-line="162" selection-start-column="31" selection-end-line="162" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -60,6 +60,7 @@
         <option value="$PROJECT_DIR$/Loops/error_detection_and_code_review.py" />
         <option value="$PROJECT_DIR$/Loops/nested_loop.py" />
         <option value="$PROJECT_DIR$/Loops/final.py" />
+        <option value="$PROJECT_DIR$/String/indexation.py" />
       </list>
     </option>
   </component>
@@ -77,6 +78,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -87,13 +89,12 @@
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="Loops" type="462c0819:PsiDirectoryNode" />
+              <item name="String" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -287,8 +288,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Loops/final.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="235" column="31" lean-forward="true" selection-start-line="235" selection-start-column="31" selection-end-line="235" selection-end-column="31" />
+        <state relative-caret-position="383">
+          <caret line="221" lean-forward="true" selection-start-line="221" selection-end-line="221" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/String/indexation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="162" column="31" lean-forward="true" selection-start-line="162" selection-start-column="31" selection-end-line="162" selection-end-column="31" />
         </state>
       </provider>
     </entry>

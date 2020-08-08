@@ -82,3 +82,4 @@ string = input()
 first_h = string.find('h')
 last_h = string.rfind('h')
 print(string[:first_h] + string[last_h:first_h:-1] + string[last_h:])
+
